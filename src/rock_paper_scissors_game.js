@@ -9,10 +9,8 @@ if (computerChoice < 0.34) {
 }
         
 var compare = function(choice1, choice2){
-    var userChoice = choice1;
-    var computerChoice = choice2;
     
-    if (Choice1 === Choice2)     {
+    if (choice1 === choice2)     {
         return "The result is a tie!";
     }
     
@@ -44,4 +42,4 @@ var compare = function(choice1, choice2){
     }
 };
 
-compare("rock", computerChoice);
+compare(userChoice, computerChoice);
